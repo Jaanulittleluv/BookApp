@@ -1,14 +1,12 @@
-/* Container to center the card */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Use min-height instead of height */
-  padding: 40px 0; /* Adds spacing at the top and bottom */
+  min-height: 100vh; 
+  padding: 40px 0;
   transition: all 0.5s ease-in-out;
 }
 
-/* Glass effect */
 .glass-effect {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
@@ -19,14 +17,13 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 80rem;
   text-align: center;
-  position: relative; /* Set to relative so it moves naturally */
+  position: relative;
   transition: all 0.5s ease-in-out;
-  margin: 2px 0; /* Adds margin on top and bottom */
+  margin: 2px 0;
 }
 
-/* When books are displayed, move the card upwards */
 .expanded {
-  margin-top: 1px !important; /* Adjusts spacing dynamically */
+  margin-top: 1px !important;
 }
 
 .bookshelf {
@@ -63,7 +60,6 @@
     border-radius: 5px;
   }
   
-  /* Expanded Book Details */
   .book-details {
     position: fixed;
     top: 50%;
